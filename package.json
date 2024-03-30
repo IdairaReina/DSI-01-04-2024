@@ -1,0 +1,32 @@
+{
+  "name": "dsi-01-04-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/basicFunctions.js\"",
+    "doc": "typedoc",
+    "test": "mocha",
+    "coverage": "c8 npm test && c8 report --reporter=lcov"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.14",
+    "@types/mocha": "^10.0.6",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "chai": "^4.4.1",
+    "eslint": "^8.57.0",
+    "mocha": "^10.4.0",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.0",
+    "typedoc": "^0.25.12",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "c8": "^9.1.0"
+  }
+}
