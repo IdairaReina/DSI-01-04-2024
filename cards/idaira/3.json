@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "manaCost": 5,
+  "color": "Rojo",
+  "type": "Criatura",
+  "rarity": "Raro",
+  "rulesText": "reglas",
+  "marketValue": 25,
+  "_id": "6626368f0179abeb8d2bfc09",
+  "__v": 0
+}
